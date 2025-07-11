@@ -9,7 +9,7 @@ const App = () => {
   const [message, setMessage] = useState('');
   const [leaderboard, setLeaderboard] = useState([]);
 
-  const API_BASE = 'https://your-backend-url.com'; // replace this with real backend
+  const API_BASE = 'https://dev.3afsa.xyz/'; // replace this with real backend
 
   // Register user and fetch info
   useEffect(() => {
